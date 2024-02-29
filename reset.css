@@ -1,0 +1,39 @@
+/* Reset CSS */
+
+/* selector universal para todos los elementos para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Espaciado y margen cero para todo el cuerpo del documento */
+  body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; /*Añadir una fuente generica para el body entero*/
+  }
+
+
+  h1, h2, h3,h4,h5,h6, p{
+    margin: 0;
+    padding: 0;
+  }
+
+
+  /* Eliminar estilos de lista */
+  ul, ol {
+    list-style: none;
+  }
+  
+  /* Estilos de hipervínculos básicos */
+  a {
+    text-decoration: none;
+    color: inherit;
+    }
+  
+  /* Estilos de imagen */
+  img {
+    max-width: 100%;
+    height: auto;
+    }
